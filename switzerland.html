@@ -1,6 +1,4 @@
 
-<!-- HTML Assignment -->
-
 	<!DOCTYPE html>
 
 	<html lang="en">
@@ -8,7 +6,7 @@
 		<head>
 			<meta charset="utf-8"/>
 			<title>Switzerland</title>
-
+			<link href="css/style.css" rel="stylesheet"/>
 		</head>
 
 		<body>
@@ -21,10 +19,10 @@
 
 			<nav>
 
-				<ul>
+				<ul id="menu">
 
-					<li><a href="#intro">Intro</a></li>
-					<li><a href="#people">People</a></li>
+					<li><a href="#intro">Introduction</a></li>
+					<li><a href="#people">People & Society</a></li>
 					<li><a href="#geography">Geography</a></li>
 					<li><a href="#communications">Communications</a></li>
 
@@ -36,25 +34,39 @@
 
 				<section id="intro">
 
-					<img src="switzerland-house.jpg" alt="scenic view with house">
+					<h2 id="introlabel">Introduction</h2>
 
-					<h2>Introduction to Switzerland</h2>
+					<figure id="housepic">
 
-						<a href="https://youtu.be/t-qiPT96W6k" target="_blank">Tour Switzerland in 60 seconds!</a>
+						<img src="images/switzerland-house.jpg" alt="scenic view of matternhorn with house and green grass">
+  					<figcaption>A view in the mountains. (Source: CIA World Factbook)</figcaption>
+
+					</figure>
+
+					<article id="introfirst">
+
+						<h3><a href="https://youtu.be/t-qiPT96W6k">Tour Switzerland in 60 seconds!</a></h3>
 
 						<p>The Swiss Confederation was founded as a defensive alliance among three cantons. </p>
 						<p>The Swiss Confederation secured its independence from the Holy Roman Empire. A constitution with a centralized federal government replaced the confederation.</p>
 						<p>Switzerland was not involved in either of the two world wars. Switzerland's ties with its neighbors has been strengthened because of the prominent role in many UN and international organizations. Switzerland still participates in many UN and international organizations but still maintains a strong commitment to neutrality.</p>
 
-						<img src="switzerland-mountains.jpg" alt="mountains with building">
+					</article>
 
 				</section>
 
-				<article id="people">
+				<section id="people">
 
-					<h2>People & Society in Switzerland</h2>
+					<h2 id="peoplelabel">People & Society</h2>
 
-					<section>
+					<figure id="mountainimg">
+
+						<img src="images/switzerland-mountains.jpg" alt="mountains covered in snow with building">
+						<figcaption>A view of the Matternhorn. (Source: CIA World Factbook)</figcaption>
+
+					</figure>
+
+					<article id="languages">
 
 						<h3>Languages</h3>
 
@@ -65,13 +77,14 @@
 								<tr>
 									<th>Language</th>
 									<th>Percentage</th>
-									<th>Language</th>
-									<th>Percentage</th>
 								</tr>
 
 								<tr>
 									<td>German</td>
 									<td>62.6%</td>
+								</tr>
+
+								<tr>
 									<td>Albanian</td>
 									<td>3.2%</td>
 								</tr>
@@ -79,6 +92,9 @@
 								<tr>
 									<td>French</td>
 									<td>22.9%</td>
+								</tr>
+
+								<tr>
 									<td>Serbo-Croatian</td>
 									<td>2.5%</td>
 								</tr>
@@ -86,6 +102,9 @@
 								<tr>
 									<td>Italian</td>
 									<td>8.2%</td>
+								</tr>
+
+								<tr>
 									<td>Spanish</td>
 									<td>2.4%</td>
 								</tr>
@@ -93,6 +112,9 @@
 								<tr>
 									<td>English</td>
 									<td>5.4%</td>
+								</tr>
+
+								<tr>
 									<td>Romansh</td>
 									<td>0.5%</td>
 								</tr>
@@ -100,26 +122,48 @@
 								<tr>
 									<td>Portuguese</td>
 									<td>3.7%</td>
+								</tr>
+
+								<tr>
 									<td>Other</td>
 									<td>7.7%</td>
 								</tr>
 
 							</table>
 
-						</section>
+						</article>
 
-						<section>
+						<article id="age">
 
-							<h3>Median Age</h3>
+						<h3>Median Age</h3>
 
-								<p>Total: 42.7 years</p>
-								<p>Male: 41.7 years</p>
-								<p>Female: 43.7 years</p>
-								<p>Country Comparison to the world: 33</p>
+							<table>
 
-						</section>
+								<tr>
+									<th>Sex</th>
+									<th>Age(years)</th>
+								</tr>
 
-						<section>
+								<tr>
+									<td>Male</td>
+									<td>41.7</td>
+								</tr>
+
+								<tr>
+									<td>Female</td>
+									<td>43.7</td>
+								</tr>
+
+								<tr>
+									<td>Total</td>
+									<td>42.7</td>
+								</tr>
+
+							</table>
+
+						</article>
+
+						<article id="religion">
 
 							<h3>Religions in Switzerland</h3>
 
@@ -174,27 +218,45 @@
 
 								</table>
 
-						</section>
+						</article>
 
-				</article>
+				</section>
 
+				<section id="geography">
 
-				<article id="geography">
+					<h2 id="geolabel">Geography</h2>
 
-					<h2>Geography in Switzerland</h2>
-
-					<section>
+					<article>
 
 						<h3>Area</h3>
 
-							<p>Total: 41,277 <abbr title="square kilometers"> sq km</abbr></p>
-							<p>Land: 39,997 <abbr title="square kilometers"> sq km</abbr></p>
-							<p>Water: 1,280 <abbr title="square kilometers"> sq km</abbr></p>
-							<p>Country Comparison to the world: 33</p>
+						<table>
 
-					</section>
+							<tr>
+								<th>Geography</th>
+								<th><abbr title="square kilometers">Sq Km</abbr></th>
+							</tr>
 
-					<section>
+							<tr>
+								<td>Land</td>
+								<td>39,997</td>
+							</tr>
+
+							<tr>
+								<td>Water</td>
+								<td>1,280</td>
+							</tr>
+
+							<tr>
+								<td>Total</td>
+								<td>41, 227</td>
+							</tr>
+
+						</table>
+
+					</article>
+
+					<article>
 
 						<h3>Land Use</h3>
 
@@ -224,25 +286,29 @@
 
 							</table>
 
-						</section>
+						</article>
 
-						<section>
+						<article>
 
 						<h3>Natural Hazards</h3>
 
 							<ul>
+
 								<li>Avalanches</li>
 								<li>Landslides</li>
 								<li>Flash Floods</li>
+
 							</ul>
 
-						</section>
+						</article>
 
-				</article>
+				</section>
 
-				<article id="communications">
+				<section id="communications">
 
-					<h2>Communications in Switzerland</h2>
+					<h2 id="commlabel">Communications</h2>
+
+					<article id="users">
 
 						<h3>Internet Users</h3>
 
@@ -254,33 +320,10 @@
 
 							</ul>
 
-						<h3>Telephones</h3>
+					</article>
 
-							<table>
 
-								<caption>Different Telephones</caption>
-								<tr>
-									<th>Type of telephone</th>
-									<th>Total subscriptions</th>
-									<th>Subscriptions per 100 inhabitants</th>
-									<th>Country Comparison to the World</th>
-								</tr>
-
-								<tr>
-									<td>Fixed lines</td>
-									<td>3,302,836</td>
-									<td>40</td>
-									<td>43</td>
-								</tr>
-
-								<tr>
-									<td>Mobile Cellular</td>
-									<td>10,808,148</td>
-									<td>130</td>
-									<td>81</td>
-								</tr>
-
-							</table>
+						<article id="subs">
 
 						<h3>Broadband-fixed subscriptions:</h3>
 
@@ -288,13 +331,50 @@
 							<p>Subscriptions per 100 inhabitants: 48</p>
 							<p>Country comparison to the world: 36</p>
 
-				</article>
+						</article>
+
+						<article id="phones">
+
+							<h3>Telephones</h3>
+
+								<table id="phonestable">
+
+									<caption>Different Telephones</caption>
+
+									<tr>
+										<th>Type of telephone</th>
+										<th>Total subscriptions</th>
+										<th>Subscriptions per 100 inhabitants</th>
+										<th>Country Comparison to the World</th>
+									</tr>
+
+									<tr>
+										<td>Fixed lines</td>
+										<td>3,302,836</td>
+										<td>40</td>
+										<td>43</td>
+									</tr>
+
+									<tr>
+										<td>Mobile Cellular</td>
+										<td>10,808,148</td>
+										<td>130</td>
+										<td>81</td>
+									</tr>
+
+								</table>
+
+							</article>
+
+				</section>
 
 			</main>
 
 				<footer>
-						<p>Source:</p><a href="https://www.cia.gov/library/publications/the-world-factbook/">CIA World Factbook</a>
-						<a href="https://www.britannica.com/place/Switzerland" target="_blank">Click for more information</a>
+
+						<p>Source:<a href="https://www.cia.gov/library/publications/the-world-factbook/">CIA World Factbook</a></p>
+						<p><a href="https://www.britannica.com/place/Switzerland">Click for more information</a></p>
+
 				</footer>
 
 		</body>

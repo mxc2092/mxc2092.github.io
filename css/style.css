@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Work+Sans:wght@600&display=swap');
+
+main{
+font-family: 'Work Sans', sans-serif, Times;
+}
+
+header{
+  padding-left:15vw;
+  font-size: 1.5em;
+}
+
+h1,h2, nav{
+  font-family: 'Josefin Sans', 'Work Sans', Tahoma;
+}
+
+h1{
+  color: #495B73;
+}
+
+h2{
+  font-size:2em;
+}
+
+a{
+  text-decoration: none;
+  color:#5A708C;
+}
+
+nav{
+  font-size:1.25em;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+#menu{
+  list-style-type: none;
+  margin: 0 auto;
+  padding-left:15vw;
+  padding-right:15vw;
+  display: flex;
+  justify-content: space-between;
+}
+
+#menu a{
+  padding: 6px;
+}
+
+#menu a:hover{
+  background-color: #5A708C;
+  color: white;
+  font-size:1.25em;
+}
+
+#menu a:active{
+  background-color: #D5E0F5;
+  color:#5A708C;
+}
+
+#menu a:link{
+  font-style: italic;
+}
+
+#menu a:visited{
+  text-decoration: underline;
+
+}
+
+#intro{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr 4fr;
+  grid-gap: 20px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top:4vw;
+  padding-bottom:4vw;
+  background-color:#D5E0F5;
+}
+
+ #intro figure{
+   margin-left: 0;
+ }
+
+ #introlabel{
+   grid-area: 1/2/2/3;
+ }
+
+ #housepic{
+   grid-area: 1/1/3/2;
+ }
+
+ #introfirst{
+   grid-area:2/2/3/3;
+ }
+
+#people{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 5fr 3fr;
+  grid-gap: 20px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top:4vw;
+  padding-bottom:4vw;
+  background-color: #D1DBF0;
+}
+
+#peoplelabel{
+  grid-area: 1/1/2/3;
+  margin: 0 auto;
+}
+
+#mountainimg{
+  grid-area: 2/2/3/3;
+}
+
+#languages{
+  grid-area: 2/1/3/2;
+}
+
+#religion{
+  grid-area: 3/1/4/2;
+}
+
+#age{
+  grid-area: 3/2/3/3;
+  margin: 0 auto;
+}
+
+#geography{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4fr;
+  grid-gap: 20px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top:4vw;
+  padding-bottom:4vw;
+  background-color: #CDD7EB;
+}
+
+#geolabel{
+  grid-area: 1/1/2/4;
+  margin: 0 auto;
+}
+
+#communications{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4fr 4fr;
+  grid-gap: 20px;
+  padding-left: 15vw;
+  padding-right: 15vw;
+  padding-top:4vw;
+  padding-bottom:4vw;
+  background-color: #C8D2E6;
+}
+
+#commlabel{
+  grid-area: 1/1/2/5;
+  margin: 0 auto;
+}
+
+#users{
+  grid-area: 2/1/3/3;
+}
+
+#subs{
+  grid-area: 2/3/3/5;
+}
+
+#phones{
+  grid-area: 3/2/4/4;
+  margin: 0 auto;
+}
+
+#phonestable{
+  border: 3px solid #495B73;
+  padding: 10px;
+  margin: 5px;
+}
+
+footer{
+  padding-left: 15vw;
+  padding-top: 1vw;
+  padding-bottom: 3vw;
+}
