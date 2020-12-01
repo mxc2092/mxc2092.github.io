@@ -19,10 +19,6 @@
   	width: 100%;
 	}
 
-	#topname: visited{
-		color: #000000;
-	}
-
 	#topbar{
 		margin-left:15px;
 	}
@@ -105,25 +101,15 @@
 		color: #5A708C;
 	}
 
-	button{
+	#viewbutton{
 		background-color: #D3D3D3;
 		border-radius: 6px;
 		padding:5px;
 		border: none;
 	  color: #FFFFFF;
-	  padding: 10px;
 	  text-align: center;
 	  text-decoration: none;
 		opacity: 0.5;
-	}
-
-	button:hover{
-		background-color:#FFFFFF;
-	}
-
-	button: hover{
-		  color: #000000;
-		  font-size:1.25em;
 	}
 
 	#heyintro{
@@ -168,7 +154,6 @@
 		display: grid;
 		grid-template-columns: 1fr;
 		grid-gap: 10px;
-		margin: none;
 	}
 
 	#photographygroup{
@@ -276,12 +261,17 @@
 	}
 
 	#aboutself{
-		margin-top:40px;
+
 		margin-left:5vw;
 		margin-right: 5vw;
 		display: grid;
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-gap: 20px;
+	}
+
+	#aboutselftitle{
+		font-size: 1.75em;
+		margin-left:  5vw;
 	}
 
 	#aboutself article{
@@ -303,7 +293,6 @@
 		display: grid;
 		grid-template-columns: 1fr 1fr;
 		grid-gap: 10px;
-		margin: none;
 	}
 
 	#piccollage{
